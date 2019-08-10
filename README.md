@@ -13,6 +13,11 @@ npm start
 npm run build:test
 ```
 
+#### 开发环境打包
+```
+npm run build:dev
+```
+
 #### 生产环境打包
 ```
 npm run build
