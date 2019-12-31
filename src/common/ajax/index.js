@@ -15,8 +15,8 @@ const ajaxRequest = options => {
         };
         
         if (!options.useOwnUrl) {
-            console.log(FLAG);
-            switch (FLAG) {
+            console.log(ENV_MODE);
+            switch (ENV_MODE) {
                 case 'dev':
                     newOptions.url = baseUrl.dev + newOptions.url;
                     break;

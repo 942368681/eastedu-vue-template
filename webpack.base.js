@@ -127,7 +127,7 @@ module.exports = {
             chunkFilename: 'css/[id].css'
         }),
         new webpack.DefinePlugin({
-            FLAG: JSON.stringify(process.env.mode)
+            ENV_MODE: JSON.stringify(process.env.mode)
         }),
         new Happypack({
             id: 'babel',

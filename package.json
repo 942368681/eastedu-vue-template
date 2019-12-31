@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cross-env env.mode=prod webpack --env.mode=prod",
     "build:test": "cross-env env.mode=test webpack --env.mode=test",
-    "build:dev": "cross-env env.mode=test webpack --env.mode=dev",
+    "build:dev": "cross-env env.mode=dev webpack --env.mode=dev",
     "start": "cross-env env.mode=dev webpack-dev-server --env.mode=dev"
   },
   "keywords": [],
